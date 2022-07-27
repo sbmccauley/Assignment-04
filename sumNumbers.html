@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4:  Sum Numbers</title>
+    <script>
+        function sumNumbers() {
+
+            let numbers = [];
+
+            while (true) {
+                let value = prompt('Please enter your values one by one.  When you are finished entering, please enter "f"', 0);
+       
+                if (value === "" || value === null || !isFinite(value)) break;
+                numbers.push(+value);
+            }
+
+            let sum = 0;
+            for (number of numbers) {
+                sum += number;
+            }
+            return sum;
+        }
+
+        alert(`The sum of your numbers is ${sumNumbers()}`);
+
+      
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
